@@ -41,5 +41,5 @@ set :repo_url, "git@github.com:kazukazu11/CARAVAN.git"
 set :deploy_to, "/home/ec2-user/CARAVAN"
 set :rbenv_ruby, '2.5.7'
 set :linked_files, %w{config/master.key .env}
-append :linked_dirs, "log", "public/system", "tmp"
+append :linked_dirs, "log", "public", "tmp"
 
